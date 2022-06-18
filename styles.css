@@ -1,0 +1,62 @@
+
+header,
+body {
+  margin: 0;
+}
+#main-doc {
+  border-top: 4px solid gray;
+}
+
+#navbar {
+  float: left;
+  width: 35%;
+  position: fixed;
+}
+.div-section {
+  float: right;
+  width: 65%;
+  border-left: 3px solid gray;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li  {
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+  font-size: 17px;
+  text-shadow: 1px 1px 2px black;
+}
+
+nav header {
+  margin-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+header {
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+code {
+  color: orange;
+}
+
+@media (max-width: 680px) {
+  
+  nav ul li a {
+    font-size: 15px;
+  }
+  
+  nav header {
+    font-weight: 400;
+  }
+}
