@@ -1,9 +1,6 @@
 # Technical-documentation-page
 A page that serves as reference for a topic.
 
-<!--## Objective:
-
-To build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks-->
 
 ## Prerequisite
 
